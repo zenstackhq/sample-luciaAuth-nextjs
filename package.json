@@ -1,0 +1,32 @@
+{
+	"name": "username-and-password",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "npm run generate && next build",
+		"start": "next start",
+		"lint": "next lint",
+		"generate":"zenstack generate"
+	},
+	"dependencies": {
+		"@lucia-auth/adapter-prisma": "^4.0.1",
+		"@node-rs/argon2": "^1.8.3",
+		"@prisma/client": "^5.16.1",
+		"@zenstackhq/runtime": "^2.2.4",
+		"lucia": "^3.2.0",
+		"next": "14.0.4",
+		"prisma": "^5.16.1",
+		"react": "^18",
+		"react-dom": "^18",
+		"zenstack": "^2.2.4"
+	},
+	"devDependencies": {
+		"@types/node": "^20",
+		"@types/react": "^18",
+		"@types/react-dom": "^18",
+		"eslint": "^8",
+		"eslint-config-next": "14.0.4",
+		"typescript": "^5"
+	}
+}
