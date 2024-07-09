@@ -18,7 +18,7 @@ export default async function Page() {
 	const existingUsers = await db.user.findMany();
 	return (
 		<>
-			<h1>Hi, {user.username}!</h1>
+			<h1>Hi, {user.userName}!</h1>
 			<p>Your user ID is {user.id}.</p>
 			<p>all existing users:</p>
 			<ul>
